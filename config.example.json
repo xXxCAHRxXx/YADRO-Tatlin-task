@@ -1,0 +1,11 @@
+{
+    "delays": {
+        "read_ms": 5,
+        "write_ms": 10,
+        "move_ms": 15,
+        "rewind_ms": 100
+    },
+    "memory": {
+        "limit_bytes": 1024
+    }
+}
