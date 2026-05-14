@@ -20,7 +20,7 @@ TEST_F(TapeSorterTest, Sort_SingleElement_ReturnsSingleElement) {
     ExpectTapeEq(*output, {67});
 }
 
-TEST_F(TapeSorterTest, Sort_EmptyArray_ReturnsSingleElement) {
+TEST_F(TapeSorterTest, Sort_EmptyArray_ReturnsEmptyTape) {
     SetupSorter({}, 100 * sizeof(int32_t));
     auto output = Sort();
     ExpectTapeEq(*output, {});

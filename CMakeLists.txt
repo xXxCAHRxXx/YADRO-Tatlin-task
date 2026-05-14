@@ -25,8 +25,8 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(nlohmann_json CLI11)
 
-add_subdirectory(bin)
 add_subdirectory(lib)
+add_subdirectory(bin)
 
 
 enable_testing()
